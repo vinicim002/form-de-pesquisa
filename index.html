@@ -10,7 +10,7 @@
       Bem-vindo ao formulário do DEV
     </h1>
 
-    <p id="description">T
+    <p id="description">
       Esse forms foi feito para concluir um 
       "projeto de conclusão" do freeCodeCamp
     </p>
@@ -40,10 +40,9 @@
             placeholder="Idade"
             required>
           </label>
-          <fieldset>
-            <legend>
-              Qual opção melhor descreve sua função atual?
-            </legend>
+
+          <label>
+             Qual opção melhor descreve sua função atual?
             <select id="dropdown">
               <option value="">Selecione uma opção</option>
               <option value="1">Estudante</option>
@@ -52,18 +51,17 @@
               <option value="4">Prefere não dizer</option>
               <option value="5">Outro</option>
             </select>
-          </fieldset>
-          <fieldset>
-            <legend>
-              Você teve dificuldade para programar logo no
-              início?
-            </legend>
+          </label>
+
+          <label>
+              Você teve dificuldade para programar logo no início?
             <label for="opcao1">
               <input
               type="radio"
               id="opcao1"
               value="1"
-              name="recomendacao">
+              name="recomendacao"
+              class="inline">
               Sim
             </label>
         
@@ -72,7 +70,8 @@
               type="radio"
               id="opcao2"
               value="2"
-              name="recomendacao">
+              name="recomendacao"
+              class="inline">
               Um pouco
             </label>
             <label for="opcao3">
@@ -80,15 +79,14 @@
               type="radio"
               id="opcao3"
               value="3"
-              name="recomendacao">
+              name="recomendacao"
+              class="inline">
               Não
             </label>
-          </fieldset>
-          <fieldset>
-            <legend>
-              Qual é o seu recurso favorito para aprender
-              a programar??
-            </legend>
+          </label>
+
+          <label>
+              Qual é o seu recurso favorito para aprender a programar??
             <select id="dropdown2">
               <option value="">Selecione uma opção</option>
               <option value="1">Desafios</option>
@@ -96,103 +94,111 @@
               <option value="3">Vídeos</option>
               <option value="4">Livros</option>
             </select>
-          </fieldset>
-          <fieldset>
-            <legend>
+          </label>
+
+          <label>
              Quais áreas vocês querem seguir?
              (Marque todas as opções aplicáveis)
-            </legend>
             <label for="caixa1">
               <input
               type="checkbox"
               value="1"
-              id="caixa1">
+              id="caixa1"
+              class="inline">
               Front-end
             </label>
             <label for="caixa2">
               <input
               type="checkbox"
               value="2"
-              id="caixa2">
+              id="caixa2"
+              class="inline">
               Back-end
             </label>
             <label for="caixa3">
               <input
               type="checkbox"
               value="3"
-              id="caixa3">
+              id="caixa3"
+              class="inline">
               FullStack
             </label>
             <label for="caixa4">
               <input
               type="checkbox"
               value="4"
-              id="caixa4">
+              id="caixa4"
+              class="inline">
               DevOps
             </label>
             <label for="caixa5">
               <input
               type="checkbox"
               value="5"
-              id="caixa5">
+              id="caixa5"
+              class="inline">
               Ai and Data Scientist
             </label>
             <label for="caixa6">
               <input
               type="checkbox"
               value="6"
-              id="caixa6">
+              id="caixa6"
+              class="inline">
               Android
             </label>
             <label for="caixa7">
               <input
               type="checkbox"
               value="7"
-              id="caixa7">
+              id="caixa7"
+              class="inline">
               iOS
             </label>
             <label for="caixa8">
               <input
               type="checkbox"
               value="8"
-              id="caixa8">
+              id="caixa8"
+              class="inline">
               Cyber Security
             </label>
             <label for="caixa9">
               <input
               type="checkbox"
               value="9"
-              id="caixa9">
+              id="caixa9"
+              class="inline">
               Data analyst
             </label>
             <label for="caixa10">
               <input
               type="checkbox"
               value="10"
-              id="caixa10">
+              id="caixa10"
+              class="inline">
               Game Developer
             </label>
             <label for="caixa11">
               <input
               type="checkbox"
               value="11"
-              id="caixa11">
+              id="caixa11"
+              class="inline">
               Outros
             </label>
-          </fieldset>
-          <fieldset>
-            <legend>
+          </label>
+
+          <label>
              Algum comentário ou sugestão?
-            </legend>
-        
             <label>
-              <textarea
-              placeholder="Escreva seu comentário aqui..."
-              style="width:400px; height:100px;"
-              >
+              <textarea 
+              name="" 
+              id="" 
+              class="text-input" placeholder="Escreva seu comentário aqui...">
               </textarea>
             </label>
-          </fieldset>
+          </label>
           <input type="submit" id="submit" value="Enviar">
         </form>
     </div>
