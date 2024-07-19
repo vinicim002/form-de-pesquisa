@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <h1 id="title">
+      Bem-vindo ao formulário do DEV
+    </h1>
+
+    <p id="description">T
+      Esse forms foi feito para concluir um 
+      "projeto de conclusão" do freeCodeCamp
+    </p>
+
+    <div class="background-2">
+        <form id="survey-form">
+          <label for="name" id="name-label">Nome
+            <input
+            type="text"
+            id="name"
+            placeholder="Entre com seu nome"
+            required>
+          </label>
+          <label for="email" id="email-label">Email
+            <input
+            type="email"
+            id="email"
+            placeholder="Entre com seu Email"
+            required>
+          </label>
+          <label for="number" id="number-label">Idade (Opcional)
+            <input
+            type="number"
+            id="number"
+            min="1"
+            max="110"
+            placeholder="Idade"
+            required>
+          </label>
+          <fieldset>
+            <legend>
+              Qual opção melhor descreve sua função atual?
+            </legend>
+            <select id="dropdown">
+              <option value="">Selecione uma opção</option>
+              <option value="1">Estudante</option>
+              <option value="2">Graduado em TI</option>
+              <option value="3">Graduando em TI</option>
+              <option value="4">Prefere não dizer</option>
+              <option value="5">Outro</option>
+            </select>
+          </fieldset>
+          <fieldset>
+            <legend>
+              Você teve dificuldade para programar logo no
+              início?
+            </legend>
+            <label for="opcao1">
+              <input
+              type="radio"
+              id="opcao1"
+              value="1"
+              name="recomendacao">
+              Sim
+            </label>
+        
+            <label for="opcao2">
+              <input
+              type="radio"
+              id="opcao2"
+              value="2"
+              name="recomendacao">
+              Um pouco
+            </label>
+            <label for="opcao3">
+              <input
+              type="radio"
+              id="opcao3"
+              value="3"
+              name="recomendacao">
+              Não
+            </label>
+          </fieldset>
+          <fieldset>
+            <legend>
+              Qual é o seu recurso favorito para aprender
+              a programar??
+            </legend>
+            <select id="dropdown2">
+              <option value="">Selecione uma opção</option>
+              <option value="1">Desafios</option>
+              <option value="2">Projetos</option>
+              <option value="3">Vídeos</option>
+              <option value="4">Livros</option>
+            </select>
+          </fieldset>
+          <fieldset>
+            <legend>
+             Quais áreas vocês querem seguir?
+             (Marque todas as opções aplicáveis)
+            </legend>
+            <label for="caixa1">
+              <input
+              type="checkbox"
+              value="1"
+              id="caixa1">
+              Front-end
+            </label>
+            <label for="caixa2">
+              <input
+              type="checkbox"
+              value="2"
+              id="caixa2">
+              Back-end
+            </label>
+            <label for="caixa3">
+              <input
+              type="checkbox"
+              value="3"
+              id="caixa3">
+              FullStack
+            </label>
+            <label for="caixa4">
+              <input
+              type="checkbox"
+              value="4"
+              id="caixa4">
+              DevOps
+            </label>
+            <label for="caixa5">
+              <input
+              type="checkbox"
+              value="5"
+              id="caixa5">
+              Ai and Data Scientist
+            </label>
+            <label for="caixa6">
+              <input
+              type="checkbox"
+              value="6"
+              id="caixa6">
+              Android
+            </label>
+            <label for="caixa7">
+              <input
+              type="checkbox"
+              value="7"
+              id="caixa7">
+              iOS
+            </label>
+            <label for="caixa8">
+              <input
+              type="checkbox"
+              value="8"
+              id="caixa8">
+              Cyber Security
+            </label>
+            <label for="caixa9">
+              <input
+              type="checkbox"
+              value="9"
+              id="caixa9">
+              Data analyst
+            </label>
+            <label for="caixa10">
+              <input
+              type="checkbox"
+              value="10"
+              id="caixa10">
+              Game Developer
+            </label>
+            <label for="caixa11">
+              <input
+              type="checkbox"
+              value="11"
+              id="caixa11">
+              Outros
+            </label>
+          </fieldset>
+          <fieldset>
+            <legend>
+             Algum comentário ou sugestão?
+            </legend>
+        
+            <label>
+              <textarea
+              placeholder="Escreva seu comentário aqui..."
+              style="width:400px; height:100px;"
+              >
+              </textarea>
+            </label>
+          </fieldset>
+          <input type="submit" id="submit" value="Enviar">
+        </form>
+    </div>
+  </body>
+</html>
